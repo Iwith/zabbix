@@ -20,8 +20,8 @@ class WeChatMSG(object):
     def __init__(self,content):
         self.gettoken_url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken'
         self.gettoken_content = {
-                            'corpid' : 'wwe01d8cae9f961e45',            #企业ID
-                            'corpsecret' : 'fFmtUnDcgLU81zwDkesR4ItbK2_3be1A3r5NnipT8T8' ,   #企业secret
+                            'corpid' : 'wwe01d8ca1e45',            #企业ID
+                            'corpsecret' : 'fFmtU4ItbK2_3be1A3r5NnipT8T8' ,   #企业secret
                             }
         self.main_content = {
                             "toparty":"2",           #部门ID
